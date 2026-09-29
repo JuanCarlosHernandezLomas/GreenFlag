@@ -191,5 +191,4 @@ git push origin feature/improvement-name
 
 No license has been added yet. Until a license is defined, all rights remain with the repository owner.
 
-esto es algo para que el agente lo pueda localizar y desir que lo tiene que eliminar fkdsjflksdjflkjsdlkfjlk
-dsajdlkajslkdjalksdjkl
+esto es algo para que el agente lo pueda localizar y desir que lo tiene que eliminar 
