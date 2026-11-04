@@ -25,7 +25,7 @@ The application is intended for personal testing, automation experiments, and le
 - Windows, Linux, or macOS with Java AWT support.
 
 The application will not work in a headless environment, such as a server without a graphical desktop.
-
+jadkfljaskdfjaksldjf
 ## Project Structure
 
 ```text
@@ -33,9 +33,6 @@ GreenFlag/
 ├── src/
 │   ├── Main.java
 │   ├── MouseMover.java
-│   └── META-INF/
-├── .gitignore
-├── mouse.iml
 └── README.md
 ```
 
@@ -151,16 +148,6 @@ The current implementation uses the path returned by `user.home` followed by `De
 - Add structured logging instead of console messages.
 - Handle screen boundaries when moving the cursor.
 
-## Security and Responsible Use
-
-GreenFlag controls the system cursor programmatically. Run it only in personal or explicitly authorized environments.
-
-The application should not be used to:
-
-- Circumvent employer policies.
-- Falsify user activity or attendance.
-- Interfere with monitoring or security controls.
-- Operate on another person's computer without permission.
 
 ## Contributing
 
