@@ -25,7 +25,6 @@ The application is intended for personal testing, automation experiments, and le
 - Windows, Linux, or macOS with Java AWT support.
 
 The application will not work in a headless environment, such as a server without a graphical desktop.
-jadkfljaskdfjaksldjf
 ## Project Structure
 
 ```text
@@ -72,7 +71,6 @@ private static final String STOP_FILE_NAME = "stop.txt";
 5. Run the `MouseMover.main()` method.
 
 ### Using PowerShell
-sdadasdasd adwqweouiqwpoieopqwipeipqwoiepo
 Clone the repository:
 
 ```powershell
