@@ -7,7 +7,7 @@ The application is intended for personal testing, automation experiments, and le
 > Use this application only on computers and environments where you have authorization. Do not use it to bypass organizational policies, monitoring systems, security controls, or attendance requirements.
 
 ## Features
-
+esto es un ejemplo para el agente 
 - Detects real mouse movement.
 - Measures how long the mouse has remained inactive.
 - Moves the cursor automatically after a configurable inactivity period.
