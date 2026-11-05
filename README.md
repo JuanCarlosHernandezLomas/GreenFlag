@@ -18,7 +18,7 @@ The application is intended for personal testing, automation experiments, and le
 - Uses only standard Java libraries and requires no external dependencies.
 ds,ma,.dm.,sam.dm.sad,
 ## Requirements
-
+kksdfladkfalfdaknlkadfl
 - Java Development Kit (JDK) 21 or newer.
 - A desktop environment with graphical interface access.
 - Permission to control the mouse through the operating system.
