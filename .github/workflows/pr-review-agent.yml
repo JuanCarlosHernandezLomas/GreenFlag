@@ -1,0 +1,41 @@
+name: PR Review Agent
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  invoke-review-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Authenticate to Google Cloud
+        id: auth
+        uses: google-github-actions/auth@v3
+        with:
+          project_id: geglobal-level-program
+          workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.GCP_REVIEW_INVOKER_SERVICE_ACCOUNT }}
+          token_format: id_token
+          id_token_audience: https://review-agent-996734686110.us-central1.run.app
+          id_token_include_email: true
+
+      - name: Invoke the private Cloud Run webhook
+        env:
+          ID_TOKEN: ${{ steps.auth.outputs.id_token }}
+          WEBHOOK_SECRET: ${{ secrets.PR_AGENT_WEBHOOK_SECRET }}
+          SERVICE_URL: https://review-agent-996734686110.us-central1.run.app
+        shell: bash
+        run: |
+          set -euo pipefail
+          SIGNATURE="$(python -c 'import hashlib,hmac,os; body=open(os.environ["GITHUB_EVENT_PATH"],"rb").read(); print("sha256=" + hmac.new(os.environ["WEBHOOK_SECRET"].encode(), body, hashlib.sha256).hexdigest())')"
+          curl --fail-with-body --silent --show-error \
+            --request POST "${SERVICE_URL}/webhook" \
+            --header "Authorization: Bearer ${ID_TOKEN}" \
+            --header "Content-Type: application/json" \
+            --header "X-GitHub-Event: pull_request" \
+            --header "X-Hub-Signature-256: ${SIGNATURE}" \
+            --data-binary "@${GITHUB_EVENT_PATH}"
