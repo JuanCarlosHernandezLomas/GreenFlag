@@ -16,7 +16,7 @@ The application is intended for personal testing, automation experiments, and le
 - Provides console messages with execution timestamps.
 - Supports stopping the application by creating a `stop.txt` file.
 - Uses only standard Java libraries and requires no external dependencies.
-
+ds,ma,.dm.,sam.dm.sad,
 ## Requirements
 
 - Java Development Kit (JDK) 21 or newer.
