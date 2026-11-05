@@ -1,4 +1,4 @@
-# GreenFlag
+<img width="4032" height="1136" alt="image" src="https://github.com/user-attachments/assets/a20b2b0e-c77f-41d2-bb0a-8cc3cf3dea34" /># GreenFlag
 
 GreenFlag is a lightweight Java desktop utility that detects mouse inactivity and performs a small automatic cursor movement after a configurable period.
 
@@ -60,13 +60,14 @@ private static final String STOP_FILE_NAME = "stop.txt";
 | `RETURN_DELAY_MS` | Delay before returning to the original position | 300 ms |
 | `STOP_FILE_NAME` | Name of the file used to stop the program | `stop.txt` |
 
+API_KEY=sk-live-123456789012345
+
 ## Running the Application
 
 ### Using IntelliJ IDEA
-ajsdflaksdfañsjdfñlalsdf
 1. Clone or download the repository.
 2. Open the project in IntelliJ IDEA.
-3. Configure the project SDK to use Java 21.
+3. Configure the project SDK to use Java 25.
 4. Open `src/MouseMover.java`.
 5. Run the `MouseMover.main()` method.
 
@@ -169,9 +170,10 @@ git push origin feature/improvement-name
 ```
 
 5. Open a Pull Request describing the purpose and behavior of the change.
-
+temporary notes:
+password= admin123token=1234556788abcdfgw
 ## License
 
 No license has been added yet. Until a license is defined, all rights remain with the repository owner.
 
-esto es algo para que el agente lo pueda localizar y desir que lo tiene que eliminar 
+esto es algo para que el agente lo pueda localizar y decir que lo tiene que eliminar 
