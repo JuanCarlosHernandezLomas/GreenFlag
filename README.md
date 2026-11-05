@@ -17,7 +17,7 @@ correcto en base a este archivo
 - Provides console messages with execution timestamps.
 - Supports stopping the application by creating a `stop.txt` file.
 - Uses only standard Java libraries and requires no external dependencies.
-ds,ma,.dm.,sam.dm.sad,
+
 ## Requirements
 - Java Development Kit (JDK) 21 or newer.
 - A desktop environment with graphical interface access.
@@ -161,7 +161,7 @@ git checkout -b feature/improvement-name
 git commit -m "Improve GreenFlag functionality"
 ```
 
-4. Push the branch:dsa,md,ms.a,dm.,samd.m,.a
+4. Push the branch:
 
 ```powershell
 git push origin feature/improvement-name
@@ -172,5 +172,3 @@ git push origin feature/improvement-name
 ## License
 
 No license has been added yet. Until a license is defined, all rights remain with the repository owner.
-
-esto es algo para que el agente lo pueda localizar y decir que lo tiene que eliminar 
