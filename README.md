@@ -126,7 +126,7 @@ The current implementation uses the path returned by `user.home` followed by `De
 8. The application continues until `stop.txt` is detected or the process is terminated.
 
 ## Important Limitations
-
+dsa,d-.,sa-.d,-as,d-.sa
 - The project currently does not use Maven or Gradle.
 - Automated tests have not been implemented.
 - The stop-file path assumes that the desktop folder is located directly under the user directory.
@@ -150,7 +150,7 @@ The current implementation uses the path returned by `user.home` followed by `De
 ## Contributing
 
 Contributions are welcome.
-
+-.sa,d.as,d-.,as-.d,-sa
 1. Create a new branch:
 
 ```powershell
@@ -164,7 +164,7 @@ git checkout -b feature/improvement-name
 git commit -m "Improve GreenFlag functionality"
 ```
 
-4. Push the branch:
+4. Push the branch:dsa,md,ms.a,dm.,samd.m,.a
 
 ```powershell
 git push origin feature/improvement-name
