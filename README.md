@@ -72,7 +72,7 @@ private static final String STOP_FILE_NAME = "stop.txt";
 5. Run the `MouseMover.main()` method.
 
 ### Using PowerShell
-
+sdadasdasd adwqweouiqwpoieopqwipeipqwoiepo
 Clone the repository:
 
 ```powershell
