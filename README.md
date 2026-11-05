@@ -18,7 +18,6 @@ The application is intended for personal testing, automation experiments, and le
 - Uses only standard Java libraries and requires no external dependencies.
 ds,ma,.dm.,sam.dm.sad,
 ## Requirements
-kksdfladkfalfdaknlkadfl
 - Java Development Kit (JDK) 21 or newer.
 - A desktop environment with graphical interface access.
 - Permission to control the mouse through the operating system.
@@ -85,7 +84,6 @@ javac -d out src\MouseMover.java
 ```
 
 Run it:
-dlkañlsdkñlaskdñlksañlkdñlsakñldkñlksdañkasñdnksadihaskjdhkjsa
 ```powershell
 java -cp out MouseMover
 ```
@@ -126,7 +124,7 @@ The current implementation uses the path returned by `user.home` followed by `De
 8. The application continues until `stop.txt` is detected or the process is terminated.
 
 ## Important Limitations
-dsa,d-.,sa-.d,-as,d-.sa
+
 - The project currently does not use Maven or Gradle.
 - Automated tests have not been implemented.
 - The stop-file path assumes that the desktop folder is located directly under the user directory.
@@ -150,7 +148,6 @@ dsa,d-.,sa-.d,-as,d-.sa
 ## Contributing
 
 Contributions are welcome.
--.sa,d.as,d-.,as-.d,-sa
 1. Create a new branch:
 
 ```powershell
