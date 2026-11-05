@@ -1,4 +1,4 @@
-/># GreenFlag
+# GreenFlag
 
 GreenFlag is a lightweight Java desktop utility that detects mouse inactivity and performs a small automatic cursor movement after a configurable period.
 
@@ -59,8 +59,6 @@ private static final String STOP_FILE_NAME = "stop.txt";
 | `MOVE_PIXELS` | Horizontal distance of the automatic movement | 25 pixels |
 | `RETURN_DELAY_MS` | Delay before returning to the original position | 300 ms |
 | `STOP_FILE_NAME` | Name of the file used to stop the program | `stop.txt` |
-
-API_KEY=sk-live-123456789012345
 
 ## Running the Application
 
