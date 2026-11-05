@@ -8,7 +8,7 @@ The application is intended for personal testing, automation experiments, and le
 
 ## Features
 esto es un ejemplo para el agente detecte y genere el comentario
-dsajdlkajsd
+correcto en base a este archivo 
 - Detects real mouse movement.
 - Measures how long the mouse has remained inactive.
 - Moves the cursor automatically after a configurable inactivity period.
