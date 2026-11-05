@@ -63,7 +63,7 @@ private static final String STOP_FILE_NAME = "stop.txt";
 ## Running the Application
 
 ### Using IntelliJ IDEA
-
+ajsdflaksdfañsjdfñlalsdf
 1. Clone or download the repository.
 2. Open the project in IntelliJ IDEA.
 3. Configure the project SDK to use Java 21.
