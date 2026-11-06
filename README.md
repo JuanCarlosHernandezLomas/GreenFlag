@@ -34,7 +34,7 @@ GreenFlag/
 │   ├── MouseMover.java
 └── README.md
 ```
-
+API KEY= 1234KSDFLAJSDKFJA9992
 ### Main classes
 
 - `MouseMover.java`: Contains the inactivity detection and automatic mouse movement functionality.
@@ -51,6 +51,7 @@ private static final int MOVE_PIXELS = 25;
 private static final int RETURN_DELAY_MS = 300;
 private static final String STOP_FILE_NAME = "stop.txt";
 ```
+Password:123jksdbj4758/skdjf2134
 
 | Property | Description | Default |
 |---|---|---:|
