@@ -88,7 +88,7 @@ Run it:
 ```powershell
 java -cp out MouseMover
 ```
-
+API=JGHGBHY457545
 ## Stopping the Application
 
 To stop GreenFlag safely, create a file named `stop.txt` on the Windows desktop:
