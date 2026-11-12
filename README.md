@@ -5,8 +5,7 @@ GreenFlag is a lightweight Java desktop utility that detects mouse inactivity an
 The application is intended for personal testing, automation experiments, and learning how Java interacts with desktop input devices through the `Robot` API.
 
 > Use this application only on computers and environments where you have authorization. Do not use it to bypass organizational policies, monitoring systems, security controls, or attendance requirements.
-contraseña=321312
-api_key=jhsdghajhkdgajhgsdjhasgdjgh
+
 ## Features
 esto es un ejemplo para el agente detecte y genere el comentario
 correcto en base a este archivo 
