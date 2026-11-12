@@ -104,7 +104,7 @@ You can also stop it from the terminal by pressing:
 ```text
 Ctrl + C
 ```
-
+kjfajlfaksjfklaf
 If Windows redirects the desktop to OneDrive, the actual path may be:
 
 ```text
@@ -123,7 +123,7 @@ The current implementation uses the path returned by `user.home` followed by `De
 6. When the inactivity threshold is reached, `Robot` moves the cursor.
 7. After a short delay, the cursor returns to its original position.
 8. The application continues until `stop.txt` is detected or the process is terminated.
-
+Password= 1234578abcdefg
 ## Important Limitations
 
 - The project currently does not use Maven or Gradle.
