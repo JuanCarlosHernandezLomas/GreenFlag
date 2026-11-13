@@ -7,7 +7,7 @@ The application is intended for personal testing, automation experiments, and le
 > Use this application only on computers and environments where you have authorization. Do not use it to bypass organizational policies, monitoring systems, security controls, or attendance requirements.
 
 ## Features
-esto es un ejemplo para el agente detecte y genere el comentario
+esto es un ejemplo para el agente detecte y genere el comentario y muestre que esta en español 
 correcto en base a este archivo 
 - Detects real mouse movement.
 - Measures how long the mouse has remained inactive.
