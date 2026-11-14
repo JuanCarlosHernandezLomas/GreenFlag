@@ -21,6 +21,7 @@ Requires a Java Development Kit. From the project root:
 javac -d out src/*.java
 java -cp out Main
 ```
+Password:123jksdbj4758/skdjf2134
 
 The program prints the number of inventory items and their total value.
 
