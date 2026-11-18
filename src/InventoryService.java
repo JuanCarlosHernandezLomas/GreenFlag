@@ -16,7 +16,7 @@ public class InventoryService {
     public double calculateInventoryValue() {
         double total = 0;
         for (InventoryItem item : items) {
-            total += item.getQuantity() + item.getUnitPrice();
+            total += item.getQuantity() * item.getUnitPrice();
         }
         return total;
     }
