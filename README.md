@@ -1,5 +1,6 @@
 # Inventory Sample
 jdlsakjdlkjalsdjlsldkjasldjalsjdlasjlncm,nclaknldn
+dsaljkhdhjklashdkjsahjk
 A small Java command-line application for keeping a basic list of inventory items and viewing stock levels.
 
 ## Project structure
